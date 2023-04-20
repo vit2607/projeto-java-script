@@ -1,0 +1,70 @@
+body{
+    background-image: linear-gradient(to right, aqua, blue, rgb(49, 0, 128));
+    font-family: arial;
+    font-size:12px;
+
+    
+
+}
+.container{
+    width:100%;
+    height:900px;
+    margin:auto;
+}
+
+#menu{
+    width: 100%;
+    height: 150px;
+    text-align: center;
+}
+
+#menu ul li{
+    list-style: none;
+    display: inline;
+    padding: 7px;
+}
+
+#menu ul li a {
+    font-size:20px;
+    font-family: Arial;
+    color: white;
+    text-decoration: none;
+}
+
+#menu ul li a:hover{
+    background-color: blueviolet;
+    color: black;
+    padding: 4px;
+}
+
+h1,h2,h3{
+    font-size: 20px;
+    font-family: arial;
+}
+
+p{
+    font-size: 10px;
+    color: white;
+    text-align: center;
+
+}
+
+
+footer{
+    width: 100%;
+    height: 100px;
+    background-color: aquamarine, ;
+    text-align: center;
+    line-height: 50px;
+
+}
+
+#login{
+    width: 100px;
+    height: 50px;
+    background-color: rgb(113, 32, 218);
+    color: black;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-left: 45%;
+}
